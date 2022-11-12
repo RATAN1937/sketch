@@ -1,0 +1,53 @@
+body
+{
+    background-color: #4cfa4c;
+}
+h1
+{
+  position: relative;
+  color: rgb(38, 0, 255);
+  background-color: cornsilk;
+}
+#show_sketch
+{
+    float: right;
+}
+#label
+{
+    font-size: 25px;
+}
+
+#confidence
+{
+    font-size: 25px;
+}
+canvas
+{
+    border: 5px solid red;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.copy_right_footer
+{
+    position: fixed;
+    color: rgb(143, 5, 5);
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(43, 235, 225);
+    line-height: 3;
+    text-align: center;
+}
+
+@keyframes example {
+
+    from {box-shadow: 1px, 1px, 38px red;}
+    to {box-shadow: 1px, 1px, 38px rgb(168, 224, 14);}
+
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+    
+}
